@@ -7,6 +7,7 @@ const path = require('path');
 
 const package = require('./package.json');
 const info = {
+  id: package.id,
   name: package.name,
   version: package.version,
   author: package.author,
