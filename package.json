@@ -5,7 +5,7 @@
   "author": "Quinn Michaels",
   "license": "MIT",
   "copyright": "2023",
-  "description": "The Systems Deva",
+  "description": "The Systems Deva handles the @SYSTEMS in deva.world.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
