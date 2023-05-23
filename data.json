@@ -5,10 +5,10 @@
   "DATA": {
     "agent": {
       "uid": 3605038032151,
-      "key": "SystemsDeva",
+      "key": "systems",
       "prompt": {
         "emoji": "🖥️ ",
-        "text": "SystemsDeva",
+        "text": "systems",
         "colors": {
           "label": {
             "R": 120,

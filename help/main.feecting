@@ -5,17 +5,17 @@ p:Copyright (c)2023 Quinn Michaels
 p:This is the main help file for Systems Deva. Providing support to deva.world.
 
 id: 3605038032151
-key: SystemsDeva
+key: systems
 name: Systems Deva
 describe: Providing support to deva.world.
 
 ### Methods
 
-cmd:#SystemsDeva uid
+cmd:#systems uid
 p:Generate a unique id from the Systems Deva.
 
-cmd:#SystemsDeva status
+cmd:#systems status
 p:Return the status for the Systems Deva.
 
-cmd:#SystemsDeva help
+cmd:#systems help
 p:Get help using the Systems Deva
