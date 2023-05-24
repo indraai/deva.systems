@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/indraai/SystemsDeva#readme",
   "devDependencies": {
-    "@indra.ai/deva": "^1.1.49"
+    "@indra.ai/deva": "^1.1.55"
   }
 }
