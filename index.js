@@ -47,7 +47,7 @@ const SYSTEMS = new Deva({
     sys_question(packet) {
       const agent = this.agent();
       const systems = this.systems();
-      systems.personal.answers.push(packet);
+      systems.personal.questions.push(packet);
     },
     sys_answer(packet) {
       const agent = this.agent();
