@@ -43,7 +43,18 @@ const SYSTEMS = new Deva({
   listeners: {},
   modules: {},
   deva: {},
-  func: {},
+  func: {
+    sys_question(packet) {
+      const agent = this.agent();
+      const systems = this.systems();
+      systems.personal.answers.push(packet);
+    },
+    sys_answer(packet) {
+      const agent = this.agent();
+      const systems = this.systems();
+      systems.personal.answers.push(packet);
+    },
+  },
   methods: {
     /**************
     method: uid
@@ -81,6 +92,15 @@ const SYSTEMS = new Deva({
         }).catch(reject);
       });
     }
+  },
+  onDone(data) {
+    this.listen('devacore:question', packet => {
+      if (packet.q.text.includes(this.vars.trigger)) return this.func.sys_question(packet);
+    });
+    this.listen('devacore:answer', packet => {
+      if (packet.a.text.includes(this.vars.trigger)) return this.func.sys_answer(packet);
+    });
+    return Promise.resolve(data);
   },
 });
 module.exports = SYSTEMS
