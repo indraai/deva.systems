@@ -12,6 +12,7 @@ const info = {
   describe: package.description,
   version: package.version,
   url: package.homepage,
+  dir: __dirname,
   git: package.repository.url,
   bugs: package.bugs.url,
   author: package.author,
