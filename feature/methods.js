@@ -6,7 +6,7 @@ module.exports = {
   ***************/
   systems(packet) {
     this.context('feature');
-    const services = this.systems();
+    const systems = this.systems();
     const data = {};
     return new Promise((resolve, reject) => {
       this.question(`#docs raw feature/systems`).then(doc => {
