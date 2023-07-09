@@ -45,7 +45,15 @@
         "done": "🟣 DONE",
         "error": "💣 ERROR!"
       },
-      "trigger": "@SYSTEMS"
+      "trigger": "@SYSTEMS",
+      "context": {
+        "uid": "generating uid",
+        "status": "getting status",
+        "info": "getting info",
+        "feature": "accessing feature",
+        "issue": "has issues",
+        "help": "asking for help"
+      }      
     }
   }
 }
