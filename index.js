@@ -37,25 +37,13 @@ const SYSTEMS = new Deva({
   modules: {},
   deva: {},
   func: {
-    sys_question(packet) {
-      const agent = this.agent();
-      const systems = this.systems();
-      systems.personal.questions.push(packet);
-    },
-    sys_answer(packet) {
-      const agent = this.agent();
-      const systems = this.systems();
-      systems.personal.answers.push(packet);
-    },
+    sys_question(packet) {return;},
+    sys_answer(packet) {return;},
   },
   methods: {},
   onDone(data) {
-    this.listen('devacore:question', packet => {
-      if (packet.q.text.includes(this.vars.trigger)) return this.func.sys_question(packet);
-    });
-    this.listen('devacore:answer', packet => {
-      if (packet.a.text.includes(this.vars.trigger)) return this.func.sys_answer(packet);
-    });
+    this.listen('devacore:question', this.func.sys_question);
+    this.listen('devacore:answer', this.func.sys_answer);
     return Promise.resolve(data);
   },
 });
