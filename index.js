@@ -1,29 +1,31 @@
-// Copyright (c)2023 Quinn Michaels
+// Copyright (c)2025 Quinn Michaels
 // The Systems Deva manages the various @SYSTEMS in deva.world
 
+import Deva from '@indra.ai/deva';
+import pkg from './package.json' with {type:'json'};
 
-const fs = require('fs');
-const path = require('path');
+import data from './data.json' with {type:'json'};
+const {agent,vars} = data.DATA;
 
-const package = require('./package.json');
+// set the __dirname
+import {dirname} from 'node:path';
+import {fileURLToPath} from 'node:url';    
+const __dirname = dirname(fileURLToPath(import.meta.url));
+
 const info = {
-  id: package.id,
-  name: package.name,
-  describe: package.description,
-  version: package.version,
-  url: package.homepage,
+  id: pkg.id,
+  name: pkg.name,
+  describe: pkg.description,
+  version: pkg.version,
+  url: pkg.homepage,
   dir: __dirname,
-  git: package.repository.url,
-  bugs: package.bugs.url,
-  author: package.author,
-  license: package.license,
-  copyright: package.copyright,
+  git: pkg.repository.url,
+  bugs: pkg.bugs.url,
+  author: pkg.author,
+  license: pkg.license,
+  copyright: pkg.copyright,
 };
 
-const data_path = path.join(__dirname, 'data.json');
-const {agent,vars} = require(data_path).DATA;
-
-const Deva = require('@indra.ai/deva');
 const SYSTEMS = new Deva({
   info,
   agent,
@@ -41,10 +43,8 @@ const SYSTEMS = new Deva({
     sys_answer(packet) {return;},
   },
   methods: {},
-  onDone(data) {
-    this.listen('devacore:question', this.func.sys_question);
-    this.listen('devacore:answer', this.func.sys_answer);
-    return Promise.resolve(data);
-  },
+  onError(err) {
+    console.log('ERR', err);
+  }
 });
-module.exports = SYSTEMS
+export default SYSTEMS
