@@ -1,29 +1,32 @@
 {
   "id": 3605038032151,
-  "name": "@indra.ai/systemsdeva",
-  "version": "0.0.26",
+  "name": "@indra.ai/deva.systems",
+  "version": "0.0.1",
   "author": "Quinn Michaels",
   "license": "MIT",
-  "copyright": "2023",
-  "description": "The Systems Deva handles the @SYSTEMS in deva.world.",
+  "copyright": "2025",
+  "description": "The Systems Deva handles all the various systems in Deva.world.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/indraai/SystemsDeva.git"
+    "url": "git+https://github.com/indraai/deva.systems.git"
   },
   "keywords": [
     "Systems",
     "Deva",
-    "deva.world"
+    "Indra.ai",
+    "Deva.space",
+    "Deva.cloud",
+    "Deva.world"
   ],
   "bugs": {
-    "url": "https://github.com/indraai/SystemsDeva/issues"
+    "url": "https://github.com/indraai/deva.systems/issues"
   },
-  "homepage": "https://github.com/indraai/SystemsDeva#readme",
+  "homepage": "https://deva.space/devas/systems",
   "devDependencies": {
-    "@indra.ai/deva": "^1.2.8"
+    "@indra.ai/deva": "^1.2.27"
   }
 }
