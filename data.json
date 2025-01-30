@@ -1,14 +1,14 @@
 {
   "name": "Systems Deva Data File",
   "describe": "The main Data file for Systems Deva",
-  "copyright": "Copyright (c)2023 Quinn Michaels. All rights reserved.",
+  "copyright": "Copyright (c)2025 Quinn Michaels. All rights reserved.",
   "DATA": {
     "agent": {
       "id": 3605038032151,
       "key": "systems",
       "prompt": {
-        "emoji": "🖥️ ",
-        "text": "systems",
+        "emoji": "🖥️",
+        "text": "Systems",
         "colors": {
           "label": {
             "R": 120,
