@@ -43,6 +43,10 @@ const SYSTEMS = new Deva({
     sys_answer(packet) {return;},
   },
   methods: {},
+  onReady(data, resolve) {
+    this.prompt('ready');
+    return resolve(data);
+  },
   onError(err) {
     console.log('ERR', err);
   }
