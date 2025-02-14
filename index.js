@@ -44,11 +44,13 @@ const SYSTEMS = new Deva({
   },
   methods: {},
   onReady(data, resolve) {
-    this.prompt('ready');
+    this.prompt(this.vars.messages.ready);
     return resolve(data);
   },
-  onError(err) {
-    console.log('ERR', err);
-  }
+  onError(err, data, reject) {
+    this.prompt(this.vars.messages.error);
+    console.log(err);
+    return reject(err);
+  },
 });
 export default SYSTEMS
