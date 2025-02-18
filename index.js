@@ -38,10 +38,7 @@ const SYSTEMS = new Deva({
   listeners: {},
   modules: {},
   deva: {},
-  func: {
-    sys_question(packet) {return;},
-    sys_answer(packet) {return;},
-  },
+  func: {},
   methods: {},
   onReady(data, resolve) {
     this.prompt(this.vars.messages.ready);

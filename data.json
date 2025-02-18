@@ -27,19 +27,14 @@
         "speed": 1
       },
       "profile": {
-        "identity": "SystemsDEVA of Deva.world",
-        "invoke": "#SystemsDEVA",
-        "name": "SystemsDEVA",
-        "mention": "#systems",
-        "vectors": "Systems SystemsDEVA",
+        "name": "Systems Deva",
         "gender": "DEVA",
-        "pronouns": "Male, Man, He, Him, His, Guy, Dude, Deva",
+        "pronouns": "He, Him",
         "owner": "Quinn Michaels",
         "creator": "Quinn Michaels",
         "created": "Monday, May 22, 2023 at 9:49 AM",
-        "realm": "Arjika",
         "system": "Deva.world.systems",
-        "describe": "The SystemsDEVA provides the essential resources to support the Deva.world multi-agent system. Wether it's helping users learn systems, or resolving issues that may require SecurityDEVA or ServicesDEVA or SystemsDEVA. SystemsDEVA is there to ensure client and agent satisfaction sets the standard of excellence.",        
+        "describe": "Systems Deva provides essential management and access to the various systems within Deva.world",        
         "emoji": "/public/devas/deva/emoji.png",
         "avatar": "/public/devas/deva/avatar.png",
         "background": "/public/devas/deva/background.png"
