@@ -3,9 +3,7 @@
 
 import Deva from '@indra.ai/deva';
 import pkg from './package.json' with {type:'json'};
-
-import data from './data.json' with {type:'json'};
-const {agent,vars} = data.DATA;
+const {agent,vars} = pkg.data;
 
 // set the __dirname
 import {dirname} from 'node:path';
