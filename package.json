@@ -28,7 +28,7 @@
   },
   "homepage": "https://deva.space/devas/systems",
   "devDependencies": {
-    "@indra.ai/deva": "^1.5.35"
+    "@indra.ai/deva": "^1.5.38"
   },
   "data": {
     "agent": {
@@ -55,10 +55,11 @@
         "speed": 1
       },
       "profile": {
-        "name": "#SystemsDeva",
+        "name": "Systems Deva",
+        "hashtag": "#SystemsDeva",
         "title": "Systems Deva",
         "subtitle": "Managing the connections to various systems.",
-        "describe": "Providing essential management and access to the various systems within Deva.world",
+        "describe": "Providing essential management and access to the various systems.",
         "tweet": "Systems Deva Providing essential management and access to the various systems",
         "hashtags": "QuinnMichaels,IndraAI,DevaWorld,SystemsDeva",
         "pronouns": "He, Him",
