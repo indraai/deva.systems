@@ -1,19 +1,23 @@
-// Copyright (c)2023 Quinn Michaels
-// Solutions Deva test file
+"use strict";
+// Copyright ©2025 Quinn A Michaels; All rights reserved. 
+// Legal Signature Required For Lawful Use.
+// Distributed under VLA:60252329136616836513 LICENSE.md
+
+// Systems Deva test file
 
 const {expect} = require('chai')
-const SolutionsDeva = require('./index.js');
+const SystemsDeva = require('./index.js');
 
-describe(SolutionsDeva.me.name, () => {
+describe(SystemsDeva.me.name, () => {
   beforeEach(() => {
-    return SolutionsDeva.init()
+    return SystemsDeva.init()
   });
   it('Check the DEVA Object', () => {
-    expect(SolutionsDeva).to.be.an('object');
-    expect(SolutionsDeva).to.have.property('agent');
-    expect(SolutionsDeva).to.have.property('vars');
-    expect(SolutionsDeva).to.have.property('listeners');
-    expect(SolutionsDeva).to.have.property('methods');
-    expect(SolutionsDeva).to.have.property('modules');
+    expect(SystemsDeva).to.be.an('object');
+    expect(SystemsDeva).to.have.property('agent');
+    expect(SystemsDeva).to.have.property('vars');
+    expect(SystemsDeva).to.have.property('listeners');
+    expect(SystemsDeva).to.have.property('methods');
+    expect(SystemsDeva).to.have.property('modules');
   });
 })

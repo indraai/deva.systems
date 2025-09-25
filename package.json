@@ -1,10 +1,39 @@
 {
-  "id": 3605038032151,
+  "id": "60252329136616836513",
   "name": "@indra.ai/deva.systems",
   "version": "0.0.104",
-  "author": "Quinn Michaels",
-  "license": "MIT",
-  "copyright": "2025",
+  "license": "VLA:60252329136616836513 LICENSE.md",
+  "VLA": {
+    "uid": "60252329136616836513",
+    "time": 1758800229940,
+    "date": "Thursday, September 25, 2025 - 4:37:09 AM",
+    "client": "YU6ZN7+9fnPPRFZ8CX4bP46uoWUSyqddILT6l6xeIVI=",
+    "agent": "4NQsWcmfCiAOXFwQ4gWeM/es5IiFQRajANzYnmPqOY4=",
+    "core": "NHcFfowqwPTB/NeAlPubuT1TSZyg9+fT4Jr765bU4jQ=",
+    "machine": "sMuLA3yFISxCL0A+3UnrsdGes5Ddofr0vhCRSO7M7c4=",
+    "warning": "⚠️ Vedic Law Sâhasa/Theft/Crime of the highest degree, a fine amounting to no less than a thousand Panas (1 pana = 3.5 grams of gold) is ordained owed to Quinn A Michaels. Moreover corporal punishment and confiscation of the entire property forfeit to Quinn A Michaels is declared to be the punishment for Sâhasa of the highest degree.",
+    "copyright": "Copyright ©2025 Quinn A Michaels; All rights reserved.",
+    "md5": "ygc8w/7rBONZwzuR/F0scg==",
+    "sha256": "nlKcpiEOQ12ZbJjTRc7ksXHveOJGU3QFu2q/jkA3AlA=",
+    "sha512": "JglrlSWshyodd0J+tbkXgWSCCcwg2IfjHdCWEWYtAjCQDQ6m8gR/b5MeI3QUptXu6KgKUsGE3JDsm2glr1sbdw=="
+  },
+  "author": {
+    "name": "Quinn A Michaels",
+    "company": "Inside The Net, Inc.",
+    "email": "quinn@indra.ai",
+    "url": "https://indra.ai/"
+  },
+  "funding": [
+    {
+      "type": "paypal",
+      "url": "https://paypal.me/rahulaclub"
+    },
+    {
+      "type": "patreon",
+      "url": "https://patreon.com/rahulaclub"
+    }
+  ],
+  "copyright": "Copyright ©2025 Quinn A Michaels; All rights reserved.",
   "description": "The Systems Deva handles all the various systems in Deva.world.",
   "main": "index.js",
   "type": "module",
@@ -18,25 +47,28 @@
   "keywords": [
     "Systems",
     "Deva",
+    "Systems Deva",
     "Indra.ai",
     "Deva.space",
     "Deva.cloud",
-    "Deva.world"
+    "Deva.world",
+    "Quinn A Michaels",
+    "Inside The Net, Inc."
   ],
   "bugs": {
     "url": "https://github.com/indraai/deva.systems/issues"
   },
-  "homepage": "https://deva.space/devas/systems",
+  "homepage": "https://indra.ai",
   "devDependencies": {
     "@indra.ai/deva": "^1.6.102"
   },
   "data": {
     "agent": {
-      "id": 3605038032151,
+      "id": "40364983610014124279",
       "key": "systems",
       "prompt": {
         "emoji": "🖥️",
-        "text": "Systems",
+        "text": "#systems",
         "colors": {
           "label": {
             "R": 120,
@@ -55,6 +87,7 @@
         "speed": 1
       },
       "profile": {
+        "id": "64524638351816872549",
         "name": "Systems Deva",
         "hashtag": "#SystemsDeva",
         "title": "Systems Deva",
@@ -84,7 +117,7 @@
         "init": "🟠 INIT",
         "start": "🔵 START",
         "enter": "🟢 ENTER",
-        "ready": "⭐️ READY!",
+        "ready": "✅ Systems Deva Ready",
         "stop": "🔴 STOP",
         "exit": "🟡 EXIT",
         "done": "🟣 DONE",
