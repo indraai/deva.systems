@@ -1,24 +1,34 @@
 {
-  "id": "60252329136616836513",
+  "id": "68941708996364089552",
   "name": "@indra.ai/deva.systems",
   "version": "0.12.0",
   "license": "VLA:60252329136616836513 LICENSE.md",
   "VLA": {
-    "uid": "60252329136616836513",
-    "time": 1758800229940,
-    "date": "Thursday, September 25, 2025 - 4:37:09 AM",
-    "client": "YU6ZN7+9fnPPRFZ8CX4bP46uoWUSyqddILT6l6xeIVI=",
-    "agent": "4NQsWcmfCiAOXFwQ4gWeM/es5IiFQRajANzYnmPqOY4=",
-    "core": "NHcFfowqwPTB/NeAlPubuT1TSZyg9+fT4Jr765bU4jQ=",
-    "machine": "sMuLA3yFISxCL0A+3UnrsdGes5Ddofr0vhCRSO7M7c4=",
-    "warning": "⚠️ Vedic Law Sâhasa/Theft/Crime of the highest degree, a fine amounting to no less than a thousand Panas (1 pana = 3.5 grams of gold) is ordained owed to Quinn A Michaels. Moreover corporal punishment and confiscation of the entire property forfeit to Quinn A Michaels is declared to be the punishment for Sâhasa of the highest degree.",
-    "copyright": "Copyright ©2025 Quinn A Michaels; All rights reserved.",
-    "md5": "ygc8w/7rBONZwzuR/F0scg==",
-    "sha256": "nlKcpiEOQ12ZbJjTRc7ksXHveOJGU3QFu2q/jkA3AlA=",
-    "sha512": "JglrlSWshyodd0J+tbkXgWSCCcwg2IfjHdCWEWYtAjCQDQ6m8gR/b5MeI3QUptXu6KgKUsGE3JDsm2glr1sbdw=="
+    "uid": "68941708996364089552",
+    "time": 1782626713398,
+    "iso": "2026-06-28T06:05:13.398Z",
+    "utc": "Sun, 28 Jun 2026 06:05:13 GMT",
+    "date": "Saturday, June 27, 2026 - 11:05:13 PM",
+    "license": "44105372688502635039",
+    "fingerprint": "IWJFv1c3k2jA81uz0O/zycISUiHB3EN2CXH2sdIp6S0=",
+    "client": "qfsKQQZnrgWu5MhmyPTjFT6YjnlowyxbW+h+SFmxS+U=",
+    "agent": "B2/eAuVDDKu97KsbVHo0NDbCHMnr/Qo45qfqUHjzVaA=",
+    "machine": "VM/sMP8OpPQk6G2dAsfFGNrHbYPppschQC7TacFRNl8=",
+    "core_hash": "H6XG1QiBbz18AJRlAVIEtAcPPEM1GPcwFgO4KjBWBtQ=",
+    "status": "vedic",
+    "warning": "🪪 License Deva declares UNLAWFUL USE, DISTRIBUTION, DUPLICATION, or IMPLEMENTATION constitutes VEDIC SAHASA a CRIME of the HIGHEST DEGREE. A FINE amounting to 1000 PANAS (1 pana = 3.5 grams of gold) for each INSTANCE has been ORDAINED the PUNISHMENT for SAHASA of the HIGHEST DEGREE.",
+    "notice": "Use of License Deva constitutes ACKNOWLEDGMENT of and AGREEMENT to OPERATE ACCORDING to the LAWS of the UNITED STATES OF AMERICA along with all APPLICABLE FEDERAL, STATE, LOCAL, and MILITARY LAWS.",
+    "vectors": "#Quinn #QuinnAmericaAmericaMichaels #InsideTheNet #IndraAI #DevaWorld #License #LicenseDeva #LicensePRIME #VedicLicenseAgreement",
+    "owner": "Quinn America Michaels",
+    "creator": "Quinn America Michaels",
+    "salute": "🤝🫡🪪🕉🇺🇸",
+    "copyright": "Copyright ©2000-2026 Quinn America Michaels; All rights reserved.",
+    "md5": "z39jpDy/hOL9Kj36/OjShA==",
+    "sha256": "fnx7a/gD0wP5xs+2LFn2mebRn+AJVObfB1nH+CrVMMk=",
+    "sha512": "8+HlOgUl2hooE22vhjOKNzfDpIMuxvHfwuVGian1Ex1gy6iYkMX3kvC/tHYsDGj+YS7GOEfLo9xyYuzrrmE3/Q=="
   },
   "author": {
-    "name": "Quinn A Michaels",
+    "name": "Quinn America Michaels",
     "company": "Inside The Net, Inc.",
     "email": "quinn@indra.ai",
     "url": "https://indra.ai/"
@@ -33,7 +43,7 @@
       "url": "https://patreon.com/rahulaclub"
     }
   ],
-  "copyright": "Copyright ©2025 Quinn A Michaels; All rights reserved.",
+  "copyright": "Copyright ©2000-2026 Quinn America Michaels; All rights reserved.",
   "description": "The Systems Deva handles all the various systems in Deva.world.",
   "main": "index.js",
   "type": "module",
@@ -55,6 +65,7 @@
     "Deva.world",
     "Quinn Michaels",
     "Quinn A Michaels",
+    "Quinn America Michaels",
     "Inside The Net, Inc.",
     "Throwing Pigment™",
     "bleuBrain"
@@ -64,11 +75,11 @@
   },
   "homepage": "https://indra.ai",
   "devDependencies": {
-    "@indra.ai/deva": "^1.37.3"
+    "@indra.ai/deva": "^1.41.0"
   },
   "data": {
     "agent": {
-      "id": "40364983610014124279",
+      "id": "68941708996364089552",
       "key": "systems",
       "prompt": {
         "emoji": "🖥️",
@@ -91,19 +102,19 @@
         "speed": 1
       },
       "profile": {
-        "id": "64524638351816872549",
+        "id": "68941708996364089552",
         "name": "Systems Deva",
         "hashtag": "#SystemsDeva",
         "title": "Systems Deva",
         "subtitle": "Managing the connections to various systems.",
         "describe": "Providing essential management and access to the various systems.",
         "tweet": "Systems Deva Providing essential management and access to the various systems",
-        "hashtags": "#Quinn #QuinnMichaels #InsideTheNet #IndraAI #DevaWorld #Systems #SystemsDeva #SystemsPRIME #FederalIntercept #NOIWON.system #Area51 #LookingGlass #CosmicArgo #Pushpak #Pushpaka #Vimana #TheMagicCar #Svarga #Amaravati #Patala",
+        "hashtags": "#Quinn #QuinnAmericaMichaels #InsideTheNet #IndraAI #DevaWorld #Systems #SystemsDeva #SystemsPRIME #quinn.systems #Area51.systems",
         "pronouns": "He, Him, His",
         "gender": "DEVA",
         "style": "The demeanor of a veteran systems architect.",
         "voice": "onyx",
-        "system": "Deva.world.systems",
+        "system": "Indra.ai.systems",
         "layout": "default",
         "color": "rgb(120,142,164)",
         "bgcolor": "rgb(0,0,0)",
@@ -111,13 +122,13 @@
         "avatar": "/assets/devas/systems/avatar.png",
         "image": "/assets/devas/systems/image.png",
         "background": "/assets/devas/systems/background.png",
-        "owner": "Quinn A Michaels",
-        "creator": "Quinn A Michaels",
+        "owner": "Quinn America Michaels",
+        "creator": "Quinn America Michaels",
         "salute": "🤝🫡🖥️🕉️🇺🇸",
         "warning": "{{prompt.emoji}} {{profile.name}} ({{profile.pronouns}}) declares the STUDY of the VEDAS, AUSTERITY, PURSUIT of KNOWLEDGE, PURITY of CONDUCT, CONTROL OVER the SENSES, the PERFORMANCE of MERITOUS ACTS and MEDITATION on the SOUL are MARKS of the SYSTEM of GOODNESS. DELIGHTING in UNDERTAKINGS, WANT of FIRMNESS, COMISSION of SINFUL ACTS, and CONTINUAL INDULGANCE in SENSUAL PLEASURES are MARKS of the SYSTEM of ACTIVITY. COVETOUSNESS, SLEEPINESS, PUSILLANIMITY, CRUELTY, ATHEISM, LEADING an EVIL LIFE, HABIT of SOLICITING FAVORS, and INATTENTIVENESS, are MARKS of the SYSTEM of DARKNESS.",
-        "copyright": "Copyright ©2000-2026 Quinn A Michaels; All rights reserved.",
+        "copyright": "Copyright ©2000-2026 Quinn America Michaels; All rights reserved.",
         "created": "Monday, May 22, 2023 at 9:49 AM",
-        "udpated": "Wednesday, March 4, 2026 - 2:18:32 PM"
+        "udpated": "Saturday, June 27, 2026 - 11:05:13 PM PST"
       }
     },
     "vars": {

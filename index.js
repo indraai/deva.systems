@@ -1,9 +1,10 @@
 "use strict";
-// Copyright ©2025 Quinn A Michaels; All rights reserved. 
-// Legal Signature Required For Lawful Use.
-// Distributed under VLA:60252329136616836513 LICENSE.md
+// Systems Deva
+// Copyright ©2000-2026 Quinn America Michaels; All rights reserved.  
+// Legal Signature Required For Lawful Use.  
+// Distributed under VLA:68941708996364089552 LICENSE.md
+// Saturday, June 27, 2026 - 11:05:13 PM
 
-// The Systems Deva manages the various @SYSTEMS in deva.world
 
 import Deva from '@indra.ai/deva';
 import pkg from './package.json' with {type:'json'};
@@ -29,7 +30,7 @@ const info = {
   copyright: pkg.copyright,
 };
 
-const SYSTEMS = new Deva({
+const SystemsDeva = new Deva({
   info,
   agent,
   vars,
@@ -63,4 +64,4 @@ const SYSTEMS = new Deva({
     return reject(err);
   },
 });
-export default SYSTEMS
+export default SystemsDeva
